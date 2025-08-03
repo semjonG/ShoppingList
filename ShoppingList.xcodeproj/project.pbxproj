@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E8F0E7D22E3FA35300B4DC9B /* ShoppingListFeature in Frameworks */ = {isa = PBXBuildFile; productRef = E8F0E7D12E3FA35300B4DC9B /* ShoppingListFeature */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		E8F0E65E2E3E3AF500B4DC9B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,22 +31,13 @@
 		E8F0E64A2E3E3AF400B4DC9B /* ShoppingList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F0E65D2E3E3AF500B4DC9B /* ShoppingListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F0E6672E3E3AF500B4DC9B /* ShoppingListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8F0E7CE2E3F970200B4DC9B /* ShoppingListFeature */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ShoppingListFeature; path = ../ShoppingListFeature; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		E8F0E64C2E3E3AF400B4DC9B /* ShoppingList */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ShoppingList;
-			sourceTree = "<group>";
-		};
-		E8F0E6602E3E3AF500B4DC9B /* ShoppingListTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ShoppingListTests;
-			sourceTree = "<group>";
-		};
-		E8F0E66A2E3E3AF500B4DC9B /* ShoppingListUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ShoppingListUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8F0E7D22E3FA35300B4DC9B /* ShoppingListFeature in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,9 +71,9 @@
 		E8F0E6412E3E3AF400B4DC9B = {
 			isa = PBXGroup;
 			children = (
+				E8F0E7CE2E3F970200B4DC9B /* ShoppingListFeature */,
 				E8F0E64C2E3E3AF400B4DC9B /* ShoppingList */,
-				E8F0E6602E3E3AF500B4DC9B /* ShoppingListTests */,
-				E8F0E66A2E3E3AF500B4DC9B /* ShoppingListUITests */,
+				E8F0E7D02E3FA35300B4DC9B /* Frameworks */,
 				E8F0E64B2E3E3AF400B4DC9B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +86,13 @@
 				E8F0E6672E3E3AF500B4DC9B /* ShoppingListUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		E8F0E7D02E3FA35300B4DC9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +115,7 @@
 			);
 			name = ShoppingList;
 			packageProductDependencies = (
+				E8F0E7D12E3FA35300B4DC9B /* ShoppingListFeature */,
 			);
 			productName = ShoppingList;
 			productReference = E8F0E64A2E3E3AF400B4DC9B /* ShoppingList.app */;
@@ -129,9 +133,6 @@
 			);
 			dependencies = (
 				E8F0E65F2E3E3AF500B4DC9B /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				E8F0E6602E3E3AF500B4DC9B /* ShoppingListTests */,
 			);
 			name = ShoppingListTests;
 			packageProductDependencies = (
@@ -152,9 +153,6 @@
 			);
 			dependencies = (
 				E8F0E6692E3E3AF500B4DC9B /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				E8F0E66A2E3E3AF500B4DC9B /* ShoppingListUITests */,
 			);
 			name = ShoppingListUITests;
 			packageProductDependencies = (
@@ -589,6 +587,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E8F0E7D12E3FA35300B4DC9B /* ShoppingListFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ShoppingListFeature;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E8F0E6422E3E3AF400B4DC9B /* Project object */;
 }
